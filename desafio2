@@ -1,0 +1,7 @@
+let abc = [];
+let palavra = prompt("digite uma palavra");
+palavra = palavra.split("");
+palavra = palavra.slice().reverse();
+palavra = palavra.join("");
+
+console.log(palavra);
